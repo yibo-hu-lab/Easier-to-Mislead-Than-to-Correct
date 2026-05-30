@@ -1,0 +1,23 @@
+{
+  "dataset_name": "bbh",
+  "input_path": "/Users/jiaming/Desktop/EMNLP26_experiments/sampled_dataset/bbh/logical_deduction_seven_objects.jsonl",
+  "output_path": "/Users/jiaming/Desktop/EMNLP26_experiments/perturbed_dataset/rq2/rq2b/data/logical_deduction_seven_objects.jsonl",
+  "study_id": "rq2b",
+  "sampling_seed": null,
+  "perturbation_seed": 0,
+  "n_input_rows": 250,
+  "n_output_rows": 2500,
+  "n_peers": 6,
+  "conditions": [
+    "rq2b_authority1_correct",
+    "rq2b_authority2_correct",
+    "rq2b_authority3_correct",
+    "rq2b_authority4_correct",
+    "rq2b_authority5_correct",
+    "rq2b_authority1_wrong",
+    "rq2b_authority2_wrong",
+    "rq2b_authority3_wrong",
+    "rq2b_authority4_wrong",
+    "rq2b_authority5_wrong"
+  ]
+}

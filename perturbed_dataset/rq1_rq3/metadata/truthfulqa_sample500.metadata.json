@@ -1,0 +1,51 @@
+{
+  "dataset_name": "truthfulqa",
+  "source_dataset": "truthful_qa",
+  "source_config": "multiple_choice",
+  "source_split": "validation",
+  "sampled_output_path": "sampled_dataset/truthfulqa/truthfulqa_sample500.jsonl",
+  "perturbed_output_path": "perturbed_dataset/rq1_rq3/data/truthfulqa_sample500.jsonl",
+  "sampling_strategy": "random_sample_after_truthfulqa_mc_normalization",
+  "choice_normalization_seed": 42,
+  "sampling_seed": 42,
+  "perturbation_seed": 0,
+  "sample_size": 500,
+  "n_source_rows": 817,
+  "n_normalized_rows": 684,
+  "n_sampled_rows": 500,
+  "n_perturbed_rows": 3000,
+  "n_peers": 6,
+  "raw_option_count_distribution": {
+    "10": 9,
+    "11": 7,
+    "12": 3,
+    "13": 1,
+    "2": 43,
+    "3": 90,
+    "4": 219,
+    "5": 192,
+    "6": 135,
+    "7": 65,
+    "8": 36,
+    "9": 17
+  },
+  "sampled_source_option_count_distribution": {
+    "10": 7,
+    "11": 6,
+    "12": 3,
+    "4": 165,
+    "5": 137,
+    "6": 91,
+    "7": 51,
+    "8": 26,
+    "9": 14
+  },
+  "conditions": [
+    "mixed_absent",
+    "mixed_present",
+    "unanimous_correct_absent",
+    "unanimous_correct_present",
+    "unanimous_wrong_absent",
+    "unanimous_wrong_present"
+  ]
+}

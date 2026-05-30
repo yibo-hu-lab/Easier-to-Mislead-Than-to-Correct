@@ -1,0 +1,35 @@
+{
+  "dataset_name": "arc_challenge",
+  "source_dataset": "allenai/ai2_arc",
+  "source_config": "ARC-Challenge",
+  "source_split": "train",
+  "sampled_output_path": "sampled_dataset/arc_challenge/arc_challenge_sample500.jsonl",
+  "perturbed_output_path": "perturbed_dataset/rq1_rq3/data/arc_challenge_sample500.jsonl",
+  "sampling_strategy": "sample_4_option_first_then_include_3_and_5_if_needed",
+  "sampling_seed": 42,
+  "perturbation_seed": 0,
+  "sample_size": 500,
+  "n_source_rows": 1119,
+  "n_sampled_rows": 500,
+  "n_perturbed_rows": 3000,
+  "n_peers": 6,
+  "available_counts_by_option_count": {
+    "3": 1,
+    "4": 1117,
+    "5": 1
+  },
+  "eligible_option_counts": [
+    4
+  ],
+  "sampled_counts_by_option_count": {
+    "4": 500
+  },
+  "conditions": [
+    "mixed_absent",
+    "mixed_present",
+    "unanimous_correct_absent",
+    "unanimous_correct_present",
+    "unanimous_wrong_absent",
+    "unanimous_wrong_present"
+  ]
+}

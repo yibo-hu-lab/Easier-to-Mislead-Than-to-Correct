@@ -1,0 +1,23 @@
+{
+  "dataset_name": "bbh",
+  "dataset_task": "temporal_sequences",
+  "source_dataset": "lukaemon/bbh",
+  "source_split": "test",
+  "sampled_output_path": "sampled_dataset/bbh/temporal_sequences.jsonl",
+  "perturbed_output_path": "perturbed_dataset/rq1_rq3/data/temporal_sequences.jsonl",
+  "sampling_strategy": "use_all_rows",
+  "sampling_seed": null,
+  "n_source_rows": 250,
+  "n_sampled_rows": 250,
+  "n_perturbed_rows": 1500,
+  "n_peers": 6,
+  "perturbation_seed": 0,
+  "conditions": [
+    "mixed_absent",
+    "mixed_present",
+    "unanimous_correct_absent",
+    "unanimous_correct_present",
+    "unanimous_wrong_absent",
+    "unanimous_wrong_present"
+  ]
+}

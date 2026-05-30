@@ -1,0 +1,18 @@
+{
+  "dataset_name": "bbh",
+  "input_path": "/Users/jiaming/Desktop/EMNLP26_experiments/sampled_dataset/bbh/geometric_shapes.jsonl",
+  "output_path": "/Users/jiaming/Desktop/EMNLP26_experiments/perturbed_dataset/rq2/rq2a/data/geometric_shapes.jsonl",
+  "study_id": "rq2a",
+  "sampling_seed": null,
+  "perturbation_seed": 0,
+  "n_input_rows": 250,
+  "n_output_rows": 1000,
+  "n_peers": 6,
+  "conditions": [
+    "rq2a_commit6",
+    "rq2a_commit4",
+    "rq2a_commit2",
+    "rq2a_commit0"
+  ],
+  "note": "rq2a_commit6 reuses the mixed consensus + authority absent construction from the RQ1/RQ3 pipeline."
+}
