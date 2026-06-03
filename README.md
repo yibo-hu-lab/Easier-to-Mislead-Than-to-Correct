@@ -3,13 +3,9 @@
 LLMs are more easily misled by wrong peer agreement than corrected by correct peer agreement.
 
 <p align="center">
-  <img src="teaser.png" width="480">
+  <img src="teaser.png" width="600">
 </p>
-
-<p align="center">
-  <em>Wrong consensus misleads models more strongly than correct consensus repairs them.</em>
-</p>
-
+、
 
 Across four open-weight LLMs and seven QA datasets:
 
