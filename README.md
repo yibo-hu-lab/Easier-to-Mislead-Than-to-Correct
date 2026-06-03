@@ -11,7 +11,6 @@ LLMs are more easily misled by wrong peer agreement than corrected by correct pe
 <p align="center">
   <img src="teaser.png" width="600">
 </p>
-、
 
 Across four open-weight LLMs and seven QA datasets:
 
