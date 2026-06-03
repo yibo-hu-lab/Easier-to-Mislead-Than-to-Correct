@@ -1,4 +1,16 @@
-# Social-Pressure Prompting Artifact
+# Easier to Mislead Than to Correct
+
+Official code and data for the paper **Easier to Mislead Than to Correct: Harmful and Beneficial Revision in LLM Conformity**.
+
+📄 Paper: https://arxiv.org/abs/2606.01637
+
+## Key Finding
+
+LLMs are more easily misled by wrong peer agreement than corrected by correct peer agreement. Across four open-weight LLMs and seven QA datasets, all-wrong peers sharply increase harmful revision, while all-correct peers produce more limited beneficial revision.
+
+These results suggest that multi-agent LLM systems should verify peer answers rather than simply aggregate them.
+
+## Artifact Overview
 
 This repository is an artifact for the social-pressure multiple-choice QA experiments. It keeps only the components needed to inspect the prompt perturbations, rerun model experiments, and view the released analysis results.
 
@@ -125,4 +137,17 @@ rq*_desc*.csv                  Descriptive statistics.
 *_model_comparison.csv         Model-form comparisons.
 discussion_*.csv, followup_*.csv
                                 Supplementary and discussion-oriented results.
+```
+
+## Citation
+
+If you find this repository useful, please cite:
+
+```bibtex
+@article{qu2026easier,
+  title={Easier to Mislead Than to Correct: Harmful and Beneficial Revision in LLM Conformity},
+  author={Jiaming Qu and Lucheng Fu and Yibo Hu},
+  year={2026},
+  journal={arXiv preprint arXiv:2606.01637}
+}
 ```
