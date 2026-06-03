@@ -7,7 +7,7 @@ Official code and data for:
 📄 Paper: [arXiv:2606.01637](https://arxiv.org/abs/2606.01637)
 
 <p align="center">
-  <img src="fig/teaser.png" width="720">
+  <img src="teaser.png" width="720">
 </p>
 
 <p align="center">
