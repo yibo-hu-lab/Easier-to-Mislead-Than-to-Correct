@@ -1,37 +1,27 @@
-# Easier to Mislead Than to Correct
-
-Official code and data for:
-
-**Easier to Mislead Than to Correct: Harmful and Beneficial Revision in LLM Conformity**
-
-📄 Paper: [arXiv:2606.01637](https://arxiv.org/abs/2606.01637)
-
 ## Key Finding
 
-When LLMs see peer answers, wrong consensus is much more effective at misleading them than correct consensus is at fixing them.
-
-Using a shared mixed-peer baseline, we find that:
-
-- **All-wrong peers** increase harmful revision from **15.6% to 62.9%**.
-
-- **All-correct peers** increase beneficial revision from **32.7% to 51.5%**.
-
-- Authority labels make models more likely to follow the endorsed answer, **regardless of whether it is correct**.
-
-- Chain-of-thought and reflection do not reliably reduce harmful revision while preserving beneficial revision.
-
-> **Wrong peer agreement spreads errors more easily than correct peer agreement repairs them.**
+LLMs are more easily misled by wrong peer agreement than corrected by correct peer agreement.
 
 <p align="center">
   <img src="teaser.png" width="480">
 </p>
 
 <p align="center">
-  <em>Figure 1: Wrong consensus misleads models more strongly than correct consensus repairs them.</em>
+  <em>Wrong consensus misleads models more strongly than correct consensus repairs them.</em>
 </p>
 
 
-These findings suggest that multi-agent LLM systems should verify peer answers rather than simply aggregate them.
+Across four open-weight LLMs and seven QA datasets:
+
+- **All-wrong peers** increase harmful revision from **15.6% to 62.9%**.
+- **All-correct peers** increase beneficial revision from **32.7% to 51.5%**.
+- Authority labels increase conformity regardless of correctness.
+- Chain-of-thought and reflection do not reliably solve the problem.
+
+> **Wrong peer agreement spreads errors more easily than correct peer agreement repairs them.**
+
+Multi-agent LLM systems should therefore verify peer answers rather than simply aggregate them.
+
 ## Artifact Overview
 
 This repository is an artifact for the social-pressure multiple-choice QA experiments. It keeps only the components needed to inspect the prompt perturbations, rerun model experiments, and view the released analysis results.
