@@ -1,3 +1,9 @@
+# Easier to Mislead Than to Correct
+
+Official code and data for the paper **Easier to Mislead Than to Correct: Harmful and Beneficial Revision in LLM Conformity**.
+
+📄 Paper: [arXiv:2606.01637](https://arxiv.org/abs/2606.01637)
+
 ## Key Finding
 
 LLMs are more easily misled by wrong peer agreement than corrected by correct peer agreement.
