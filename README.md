@@ -6,14 +6,6 @@ Official code and data for:
 
 📄 Paper: [arXiv:2606.01637](https://arxiv.org/abs/2606.01637)
 
-<p align="center">
-  <img src="teaser.png" width="480">
-</p>
-
-<p align="center">
-  <em>Figure 1: Wrong consensus misleads models more strongly than correct consensus repairs them.</em>
-</p>
-
 ## Key Finding
 
 When LLMs see peer answers, wrong consensus is much more effective at misleading them than correct consensus is at fixing them.
@@ -29,6 +21,15 @@ Using a shared mixed-peer baseline, we find that:
 - Chain-of-thought and reflection do not reliably reduce harmful revision while preserving beneficial revision.
 
 > **Wrong peer agreement spreads errors more easily than correct peer agreement repairs them.**
+
+<p align="center">
+  <img src="teaser.png" width="480">
+</p>
+
+<p align="center">
+  <em>Figure 1: Wrong consensus misleads models more strongly than correct consensus repairs them.</em>
+</p>
+
 
 These findings suggest that multi-agent LLM systems should verify peer answers rather than simply aggregate them.
 ## Artifact Overview
