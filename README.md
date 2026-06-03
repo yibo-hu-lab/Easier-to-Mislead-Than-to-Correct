@@ -7,11 +7,11 @@ Official code and data for:
 📄 Paper: [arXiv:2606.01637](https://arxiv.org/abs/2606.01637)
 
 <p align="center">
-  <img src="teaser.png" width="720">
+  <img src="teaser.png" width="480">
 </p>
 
 <p align="center">
-  <em>Wrong consensus misleads models more strongly than correct consensus repairs them.</em>
+  <em>Figure 1: Wrong consensus misleads models more strongly than correct consensus repairs them.</em>
 </p>
 
 ## Key Finding
