@@ -159,7 +159,7 @@ If you find this repository useful, please cite:
 ```bibtex
 @article{qu2026easier,
   title={Easier to Mislead Than to Correct: Harmful and Beneficial Revision in LLM Conformity},
-  author={Jiaming Qu and Lucheng Fu and Yibo Hu},
+  author={Qu, Jiaming and Fu, Lucheng and Hu, Yibo}
   year={2026},
   journal={arXiv preprint arXiv:2606.01637}
 }
