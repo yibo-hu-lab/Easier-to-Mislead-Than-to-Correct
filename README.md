@@ -159,10 +159,10 @@ discussion_*.csv, followup_*.csv
 If you find this repository useful, please cite:
 
 ```bibtex
-@inproceedings{qu2027easier,
-  title     = {Easier to Mislead Than to Correct: Harmful and Beneficial Revision in LLM Conformity},
-  author    = {Qu, Jiaming and Fu, Lucheng and Hu, Yibo},
-  booktitle = {Findings of the Association for Computational Linguistics: EACL 2027},
-  year      = {2027},
+@article{qu2026easier,
+  title   = {Easier to Mislead Than to Correct: Harmful and Beneficial Revision in LLM Conformity},
+  author  = {Qu, Jiaming and Fu, Lucheng and Hu, Yibo},
+  journal = {arXiv preprint arXiv:2606.01637},
+  year    = {2026},
 }
 ```
