@@ -4,6 +4,8 @@ Official code and data for the paper **Easier to Mislead Than to Correct: Harmfu
 
 📄 Paper: [arXiv:2606.01637](https://arxiv.org/abs/2606.01637)
 
+✅ Accepted to **Findings of EACL 2027**.
+
 ## Key Finding
 
 LLMs are more easily misled by wrong peer agreement than corrected by correct peer agreement.
@@ -157,10 +159,10 @@ discussion_*.csv, followup_*.csv
 If you find this repository useful, please cite:
 
 ```bibtex
-@article{qu2026easier,
-  title={Easier to Mislead Than to Correct: Harmful and Beneficial Revision in LLM Conformity},
-  author={Qu, Jiaming and Fu, Lucheng and Hu, Yibo}
-  year={2026},
-  journal={arXiv preprint arXiv:2606.01637}
+@inproceedings{qu2027easier,
+  title     = {Easier to Mislead Than to Correct: Harmful and Beneficial Revision in LLM Conformity},
+  author    = {Qu, Jiaming and Fu, Lucheng and Hu, Yibo},
+  booktitle = {Findings of the Association for Computational Linguistics: EACL 2027},
+  year      = {2027},
 }
 ```
